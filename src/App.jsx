@@ -6,6 +6,7 @@ import Footer from './components/footer'
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
 const Initiative = lazy(() => import('./pages/Initiative'))
+const BEcon = lazy(() => import('./pages/BEcon'))
 // const Alumni = lazy(() => import('./pages/Alumni'))
 const Resource = lazy(() => import('./pages/Resource'))
 const Gallery = lazy(() => import('./pages/Gallery'))
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/initial" element={<Initiative />} />
+          <Route path="/becon" element={<BEcon />} />
           {/* Alumni page temporarily hidden
           <Route path="/alumni" element={<Alumni />} />
           <Route path="/startups" element={<Navigate to="/alumni" replace />} /> */}

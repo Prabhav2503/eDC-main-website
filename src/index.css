@@ -558,6 +558,13 @@
       drop-shadow(0 8px 24px rgba(58, 31, 142, 0.35));
   }
 
+  .hero-clock-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 24px rgba(58, 31, 142, 0.35));
+  }
+
   .hero-gear-spin {
     animation: hero-gear-spin 48s linear infinite;
     will-change: transform;

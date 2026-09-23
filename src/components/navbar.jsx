@@ -7,7 +7,7 @@ const LINKS = [
   { to: '/about', label: 'About Us' },
   { to: '/initial', label: 'Initiatives' },
   // { to: '/alumni', label: 'Alumni' },
-  { href: 'https://becon.edciitd.com', label: 'BECon' },
+  { to: '/becon', label: 'BECon' },
   { to: '/resources', label: 'Resources' },
   { to: '/gallery', label: 'Gallery' },
   { to: '/faq', label: 'FAQ' },
