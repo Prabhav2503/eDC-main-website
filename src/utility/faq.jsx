@@ -59,7 +59,7 @@ export const faqItems = [
         Venture program, which matches them with co-founders and resources to
         commercialize academic research, breaking the &quot;UG-only&quot;
         stereotype. For more info related to initiatives done by eDC, refer to{' '}
-        <FaqLink href="/initial">edciitd.com/initial</FaqLink>.
+        <FaqLink href="/initial">edciitd.in/initial</FaqLink>.
       </>
     ),
   },
